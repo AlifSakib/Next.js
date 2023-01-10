@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const ProductList = () => {
+const ProductList = ({ productId = 100 }) => {
   return (
     <div>
       <Link href="/product/1">
@@ -10,8 +10,11 @@ const ProductList = () => {
       <Link href="/product/2">
         <h2>Product 2</h2>
       </Link>
-      <Link href="/product/3">
+      <Link href="/product/3" replace>
         <h2>Product 3</h2>
+      </Link>
+      <Link href={`/product/${productId}`}>
+        <h2>Product 4</h2>
       </Link>
     </div>
   );
