@@ -1,7 +1,6 @@
 import User from "../component/user";
 
 function Users({ users }) {
-  console.log(users);
   return (
     <>
       <h1>Users List</h1>
