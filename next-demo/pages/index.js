@@ -5,6 +5,7 @@ function Home() {
     <>
       <h1>Next Js Pre Rendering</h1>
       <Link href="/users">All Users</Link>
+      <Link href="/posts">Posts</Link>
     </>
   );
 }
