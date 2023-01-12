@@ -1,10 +1,10 @@
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 function Post({ post }) {
-  const router = useRouter();
-  if (router.isFallback) {
-    return <h1>Loading....</h1>;
-  }
+  // const router = useRouter();
+  // if (router.isFallback) {
+  //   return <h1>Loading....</h1>;
+  // }
   return (
     <>
       <h1>{post.id}</h1>
@@ -37,7 +37,7 @@ export async function getStaticPaths() {
       },
     ],
     // paths,
-    fallback: true,
+    fallback: "blocking",
   };
 }
 
@@ -56,5 +56,6 @@ export async function getStaticProps(context) {
   console.log(`Generating page for /posts/${params.postId}`);
   return {
     props: { post: data },
+    // revalidate : 10,
   };
 }
