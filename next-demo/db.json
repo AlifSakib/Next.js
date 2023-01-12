@@ -33,9 +33,9 @@
   ],
 
   "dashboard": {
-    "posts": 5,
+    "posts": 500,
     "likes": 100,
-    "followers": 20,
+    "followers": 30,
     "following": 50
   }
 }
