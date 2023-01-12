@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "news": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "News Article 1"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "News Article 2"
+    },
+    {
+      "id": 3,
+      "title": "News Article 3"
+    },
+    {
+      "id": 4,
+      "title": "News Article 4"
+    },
+    {
+      "id": 5,
+      "title": "News Article 5"
+    },
+    {
+      "id": 6,
+      "title": "News Article 6"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
