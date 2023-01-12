@@ -30,5 +30,12 @@
       "title": "News Article 6",
       "category": "politics"
     }
-  ]
+  ],
+
+  "dashboard": {
+    "posts": 5,
+    "likes": 100,
+    "followers": 20,
+    "following": 50
+  }
 }
